@@ -18,6 +18,7 @@ print(names)
 names.remove(1)
 print(names[0])
 
+#dict
 
 
 
