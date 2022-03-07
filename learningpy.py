@@ -1,6 +1,34 @@
+#lists 
+
+from csv import list_dialects
+
+
+names = ["lea","yuval","ran","dan"]
+num = len(names)
+print(num)
+names.append("peery")
+print(names)
+names.pop()
+print(names)
+print(names[0])
+print(names[-1])
+nums = [1,2,3,4,5]
+names = nums+names
+print(names)
+names.remove(1)
+print(names[0])
+
+
+
+
+
+
+
+
 #for loops
 
 
+from inspect import stack
 from tkinter import N
 
 
@@ -12,8 +40,18 @@ print("\n")
 num = len(name)#giving the length of the string
 
 for i in range(0,num):#running for 0 to num(the length of the string)
+    if(i == "i"):
+        pass  
+    if(i == 0):
+        break  
     print(i)
 print("\n")
+
+
+#whileloops
+
+
+
 
 
 #class
@@ -39,7 +77,7 @@ class worker:
     def addHours(self,hours):
         selfhours = self.addHours+ hours
     
-    def salery():
+    def salery(self):
         return self.perhour*self.hours
 
     def SaleryWithBonus(self,bonusprecent):
