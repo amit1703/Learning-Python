@@ -1,5 +1,7 @@
 #lists 
 
+from __future__ import barry_as_FLUFL
+from ast import While
 from csv import list_dialects
 
 
@@ -28,7 +30,6 @@ print(names[0])
 
 #for loops
 
-
 from inspect import stack
 from tkinter import N
 
@@ -50,9 +51,15 @@ print("\n")
 
 
 #whileloops
-
-
-
+number2=0
+while number2 != -1:
+        number2 = input('enter numbr:')
+        print('not the right number, try again.')
+        print('\n')
+        if number2 == 10:
+            print('congrats! you guessed the sicret number but not the right number but its ok!')
+            break
+print('good job!')
 
 
 #class
