@@ -14,6 +14,8 @@ values = {
         'King':13,
         'Ace': 14
 }
+suits =  ('Hearts', 'Diamonds', 'Spades', 'Clubs')
+ranks = ('Two','Three','Four','Five','Six','Seven','Eight','Ten','Jack','Queen','King')
 
 class Card:
     def __init__(self, suit,rank):
