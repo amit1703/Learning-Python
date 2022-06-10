@@ -1,4 +1,3 @@
-from optparse import Values
 values = {
         'Two': 2 ,
         "Three":3,
@@ -15,7 +14,7 @@ values = {
         'Ace': 14
 }
 suits =  ('Hearts', 'Diamonds', 'Spades', 'Clubs')
-ranks = ('Two','Three','Four','Five','Six','Seven','Eight','Ten','Jack','Queen','King')
+ranks = ('Two','Three','Four','Five','Six','Seven','Eight','Ten','Jack','Queen','King', 'Ace')
 
 class Card:
     def __init__(self, suit,rank):

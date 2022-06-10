@@ -14,5 +14,8 @@ class Deck:
         random.shuffle(self.all_cards)
     def deal_one(self):
         return self.all_cards.pop()
+    def __str__ (self):
+        for card in self.all_cards:
+            print(card)
         
  
