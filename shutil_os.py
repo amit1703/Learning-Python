@@ -10,4 +10,3 @@ os.listdir('c:\\Users') #giving back item in c:\\Users
 shutil.move('practice.txt', 'Desktop')#moves src(practice.txt) to a diffrent location (desktop)
 shutil.move('practice.txt', 'os.getcwd')#moves src(practice.txt) to this diractory
 send2trash.send2trash('practice.txt')#throws the file to trash(not complitly deleting it)
-os.walk
