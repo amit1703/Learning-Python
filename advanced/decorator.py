@@ -12,4 +12,5 @@ def new_decorator(original_func):
 @new_decorator 
 def func_needs_decorator():
     print('i want to be decorated!')
+func_needs_decorator()
 
