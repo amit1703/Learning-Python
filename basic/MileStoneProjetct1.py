@@ -2,9 +2,9 @@ checkWIN = True
 checkX = True
 checkO = True
 won = ''
-my_list1 = ['','','']
-my_list2 = ['','','']
-my_list3 = ['','','']
+my_list1 = ['-','-','-']
+my_list2 = ['-','-','-']
+my_list3 = ['-','-','-']
 def picture (row1,row2,row3):
     print(row1)
     print(row2)
@@ -16,8 +16,8 @@ while checkWIN:
      answer = input("where do you want to put O?")
      if answer == "top right" :
          if my_list1[2]== '-':
-             my_list1[2] = 'O'
-             checkO = False
+                my_list1[2] = 'O'
+                checkO = False
          else:
              answer = input(" this location is already taken, enter diftenrt loction:")
      if answer == "top middle" :

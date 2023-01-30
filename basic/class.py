@@ -10,6 +10,7 @@ class worker:
         self.name =name 
         self.age =age
         self.hours= hours
+        self.id = id
         self.perhour = perhour
         self.gender =gender
     
