@@ -5,3 +5,4 @@ with open('text.txt' , 'r') as f:
 
     for line in f:#none memory issue 
         print(line, end='')
+ 
