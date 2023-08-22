@@ -1,0 +1,1 @@
+hello my friend this is the text.txt file

@@ -15,16 +15,20 @@ class worker:
         self.gender =gender
     
 
-    def changegpa (self,newperhour):
+    def changPerHour(self,newperhour):
         self.perhour = newperhour
 
     def addHours(self,hours):
-        selfhours = self.addHours+ hours
+        self.hours = self.addHours+ hours
     
     def salery(self):
         return self.perhour*self.hours
 
-    def SaleryWithBonus(self,bonusprecent):
+    def SaleryWithBonus(self,bonusprecent = 0):
         bonusprecnt = bonusprecent/100
         salery = self.hours*self.perhour 
         salery = salery +salery*bonusprecent
+        return salery
+    
+    def resetHours(self):
+        self.hours = 0
