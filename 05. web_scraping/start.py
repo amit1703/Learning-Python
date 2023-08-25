@@ -5,4 +5,4 @@ res = requests.get("https://en.wikipedia.org/wiki/Jonas_Salk")#getting the site 
 
 soup = bs4.BeautifulSoup(res.text, 'lxml')
 
-print(soup.select('title')[0].getText())#scraping with bs4 the title
+print(soup.select('title')[0].getText())#scraping with bs4 the title 
