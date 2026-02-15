@@ -5,9 +5,6 @@ from tkinter import N
 
 
 name = "amit"
-for letter in name:
-    print(letter)
-print("\n")
 
 num = len(name)#giving the length of the string
 
